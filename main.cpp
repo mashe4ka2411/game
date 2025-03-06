@@ -94,7 +94,7 @@ public:
         for (int i = 0; i < iterations; ++i) {
             field.display();
             field.update();
-            std::this_thread::sleep_for(std::chrono::milliseconds(400)); // задержка для наглядности
+            std::this_thread::sleep_for(std::chrono::milliseconds(400)); 
         }
     }
 };
